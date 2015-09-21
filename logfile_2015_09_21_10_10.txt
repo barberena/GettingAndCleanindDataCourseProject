@@ -1,0 +1,49 @@
+2015-09-21 10:10:35 CDT | Starting run_analysis
+2015-09-21 10:10:35 CDT | Download File
+2015-09-21 10:27:53 CDT | Downloaded File on Mon Sep 21 10:27:53 2015
+2015-09-21 10:27:53 CDT | Unzip File: ./HumanActivityData/UCI HAR Dataset_2015_09_21_10_10.zip
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/activity_labels.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/features.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/features_info.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/README.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/test/Inertial Signals/body_acc_x_test.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/test/Inertial Signals/body_acc_y_test.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/test/Inertial Signals/body_acc_z_test.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/test/Inertial Signals/body_gyro_x_test.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/test/Inertial Signals/body_gyro_y_test.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/test/Inertial Signals/body_gyro_z_test.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/test/Inertial Signals/total_acc_x_test.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/test/Inertial Signals/total_acc_y_test.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/test/Inertial Signals/total_acc_z_test.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/test/subject_test.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/test/X_test.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/test/y_test.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/train/Inertial Signals/body_acc_x_train.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/train/Inertial Signals/body_acc_y_train.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/train/Inertial Signals/body_acc_z_train.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/train/Inertial Signals/body_gyro_x_train.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/train/Inertial Signals/body_gyro_y_train.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/train/Inertial Signals/body_gyro_z_train.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/train/Inertial Signals/total_acc_x_train.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/train/Inertial Signals/total_acc_y_train.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/train/Inertial Signals/total_acc_z_train.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/train/subject_train.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/train/X_train.txt
+2015-09-21 10:27:55 CDT | ./HumanActivityData/UCI HAR Dataset/train/y_train.txt
+2015-09-21 10:27:55 CDT | Start Cleaning the Data
+2015-09-21 10:27:55 CDT | rawDataFolder = ./HumanActivityData/UCI HAR Dataset
+2015-09-21 10:27:55 CDT | tidyDataFolder = ./HumanActivityData/Tidy
+2015-09-21 10:27:55 CDT | Adding SubjectID From ./HumanActivityData/UCI HAR Dataset/test/subject_test.txt
+2015-09-21 10:27:55 CDT | Adding SubjectID From ./HumanActivityData/UCI HAR Dataset/train/subject_train.txt
+2015-09-21 10:27:55 CDT | Reading Activity Labels From ./HumanActivityData/UCI HAR Dataset/activity_labels.txt
+2015-09-21 10:27:55 CDT | Adding Activity From ./HumanActivityData/UCI HAR Dataset/test/y_test.txt
+2015-09-21 10:27:57 CDT | Adding Activity From ./HumanActivityData/UCI HAR Dataset/train/y_train.txt
+2015-09-21 10:28:01 CDT | Reading Measurement Header Labels From ./HumanActivityData/UCI HAR Dataset/features.txt
+2015-09-21 10:28:02 CDT | Adding Data From ./HumanActivityData/UCI HAR Dataset/test/X_test.txt
+2015-09-21 10:28:10 CDT | Adding Data From ./HumanActivityData/UCI HAR Dataset/train/X_train.txt
+2015-09-21 10:28:31 CDT | Writing Tidy data to  ./HumanActivityData/Tidy/HumanActivityDataSet_2015_09_21_10_10.csv
+2015-09-21 10:28:34 CDT | Generate Dataset with Average for each activity and each subject
+2015-09-21 10:28:34 CDT | Build the new data set
+2015-09-21 10:28:36 CDT | Finished creating new dataset
+2015-09-21 10:28:36 CDT | Writing New Dataset to  ./HumanActivityData/Tidy/AverageDataSet_2015_09_21_10_10.csv
+2015-09-21 10:28:36 CDT | Success - Done
