@@ -1,0 +1,22 @@
+2015-09-21 15:36:36 CDT | Starting run_analysis
+2015-09-21 15:36:36 CDT | Download File
+2015-09-21 15:43:27 CDT | Downloaded File on Mon Sep 21 15:43:27 2015
+2015-09-21 15:43:27 CDT | Unzip File: ./HumanActivityData/UCI HAR Dataset_2015_09_21_15_36.zip
+2015-09-21 15:43:27 CDT | 
+2015-09-21 15:43:27 CDT | Start Cleaning the Data
+2015-09-21 15:43:27 CDT | rawDataFolder = ./HumanActivityData/UCI HAR Dataset
+2015-09-21 15:43:27 CDT | tidyDataFolder = ./HumanActivityData/Tidy
+2015-09-21 15:43:27 CDT | Adding SubjectID From ./HumanActivityData/UCI HAR Dataset/test/subject_test.txt
+2015-09-21 15:43:27 CDT | Adding SubjectID From ./HumanActivityData/UCI HAR Dataset/train/subject_train.txt
+2015-09-21 15:43:27 CDT | Reading Activity Labels From ./HumanActivityData/UCI HAR Dataset/activity_labels.txt
+2015-09-21 15:43:27 CDT | Adding Activity From ./HumanActivityData/UCI HAR Dataset/test/y_test.txt
+2015-09-21 15:43:30 CDT | Adding Activity From ./HumanActivityData/UCI HAR Dataset/train/y_train.txt
+2015-09-21 15:43:34 CDT | Reading Measurement Header Labels From ./HumanActivityData/UCI HAR Dataset/features.txt
+2015-09-21 15:43:34 CDT | Adding Data From ./HumanActivityData/UCI HAR Dataset/test/X_test.txt
+2015-09-21 15:43:37 CDT | Adding Data From ./HumanActivityData/UCI HAR Dataset/train/X_train.txt
+2015-09-21 15:43:52 CDT | Writing Tidy data to  ./HumanActivityData/Tidy/HumanActivityDataSet_2015_09_21_15_36.txt
+2015-09-21 15:43:54 CDT | Generate Dataset with Average for each activity and each subject
+2015-09-21 15:43:54 CDT | Build the new data set
+2015-09-21 15:43:56 CDT | Finished creating new dataset
+2015-09-21 15:43:56 CDT | Writing New Dataset to  ./HumanActivityData/Tidy/AverageDataSet_2015_09_21_15_36.txt
+2015-09-21 15:43:56 CDT | Success - Done

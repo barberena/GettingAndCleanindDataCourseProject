@@ -180,11 +180,11 @@ cleanDataSet <- function(timeStamp, sessionFolder){
 		dir.create(tidyDataFolder)
 	}
 
-	bigFileOut <- paste(tidyDataFolder, "/HumanActivityDataSet", timeStamp, ".csv", sep = "")
+	bigFileOut <- paste(tidyDataFolder, "/HumanActivityDataSet", timeStamp, ".txt", sep = "")
 
 	# write the main big data to a tidy file
 	logWrite(paste("Writing Tidy data to ", bigFileOut))
-	write.csv(dfBig, bigFileOut, row.names = FALSE)
+	write.table(dfBig, bigFileOut, row.names = FALSE)
 
 	# return the final data set so that it can be used by other functions.
 	# no need to load in the data again if it's already in memory
@@ -203,7 +203,7 @@ averageDataSet <- function(timeStamp, sessionFolder, dfOriginal){
 
 	# set the locations for each folder raw and tidy
 	tidyDataFolder <- paste(".", sessionFolder, "Tidy", sep = "/")
-	averageFileOut <- paste(tidyDataFolder, "/AverageDataSet", timeStamp, ".csv", sep = "")
+	averageFileOut <- paste(tidyDataFolder, "/AverageDataSet", timeStamp, ".txt", sep = "")
 	
 	# limit the means to just the columns we need, so all but 1 and 2
 	theMeansColumns <- function(dataIn) { colMeans(dataIn[,-c(1,2)]) }
@@ -219,7 +219,7 @@ averageDataSet <- function(timeStamp, sessionFolder, dfOriginal){
 
 	# write the new dataset to a tidy file
 	logWrite(paste("Writing New Dataset to ", averageFileOut))
-	write.csv(dfActivity, averageFileOut, row.names = FALSE)
+	write.table(dfActivity, averageFileOut, row.names = FALSE)
 }
 
 
