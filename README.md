@@ -57,7 +57,7 @@ Both tidy datasets contains a time stamp in the name to indicate when the file w
 
 The Code Book
 -------------
-The file Codebook.md contains information about the variables found in the Tidy Dataset.
+The file Codebook.md contains information about the variables found in both the tidy datasets.
 
 The Tidy Dataset
 -----------------
