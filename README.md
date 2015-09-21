@@ -69,3 +69,7 @@ HumanActivityDataSet*.csv - A tidy dataset which provides only the mean and stan
 AverageDataSet*.csv - A tidy dataset which provides "the average of each variable for each activity and each subject."  The column names for each
 	field is identical to the HumanActivityDataSet*.csv, with the exception that all measurement fields start with "ActivityMean-" indicating the 
 	purpose of this new dataset.
+
+The Log File
+------------
+The included file "logfile_*timestamp*.txt" was generated during the download and generation of the tidy dataset files.  In Data Science we are required to record the steps we took as well as when they were taken.  This log file is a recording of the steps taken by the R script file and when they were taken.
