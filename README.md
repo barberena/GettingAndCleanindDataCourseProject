@@ -34,8 +34,10 @@ the data from it's raw state into a tidy TXT data file (HumanActivityDataSet*.tx
 (AverageDataSet*.txt).  The R script will produce a log file containing the steps taken to produce the tidy datasets along with a
 time stamp on when the steps took place.  To reproduce the tidy datasets generated, simply load the source and execute the script:
 
+```R
 source("run_analysis.R")
 run_analysis()
+```
 
 The run_analysis function is the entry point to the script and is referred to as the main script.  It in turn calls the downloadAndUnzip,
 which downloads the raw dataset from the URL above and extracts the data from the zip file.  The main script will then call the
